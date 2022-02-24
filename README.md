@@ -1,73 +1,73 @@
 # Next Terminal
 
-[![Docker guacd build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-guacd.yml/badge.svg)](https://github.com/dushixiang/next-terminal/actions/workflows/docker-guacd.yml)
-[![Docker next-terminal build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml/badge.svg)](https://github.com/dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml)
+[![Docker guacd build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-guacd.yml/badge.svg)](https://github.com/dushixiang/next- terminal/actions/workflows/docker-guacd.yml)
+[![Docker next-terminal build](https://github.com/dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml/badge.svg)](https://github.com/ dushixiang/next-terminal/actions/workflows/docker-next-terminal.yml)
 
-## 快速了解
+## Quick understanding
 
-Next Terminal是使用Golang和React开发的一款HTML5的远程桌面网关，具有小巧、易安装、易使用、资源占用小的特点，支持RDP、SSH、VNC和Telnet协议的连接和管理。
+Next Terminal is an HTML5 remote desktop gateway developed using Golang and React. It is small, easy to install, easy to use, and takes up less resources. It supports connection and management of RDP, SSH, VNC and Telnet protocols.
 
-Next Terminal基于 [Apache Guacamole](https://guacamole.apache.org/) 开发，使用到了guacd服务。
+Next Terminal is developed based on [Apache Guacamole](https://guacamole.apache.org/) and uses the guacd service.
 
-目前支持的功能有：
+Currently supported functions are:
 
-- 授权凭证管理
-- 资产管理（支持RDP、SSH、VNC、TELNET协议）
-- 指令管理
-- 批量执行命令
-- 在线会话管理（监控、强制断开）
-- 离线会话管理（查看录屏）
-- 双因素认证
-- 资产标签
-- 资产授权
-- 多用户&用户分组
-- 计划任务
+- Authorized Credentials Management
+- Asset management (support RDP, SSH, VNC, TELNET protocols)
+- Order management
+- Batch execute commands
+- Online session management (monitoring, forced disconnection)
+- Offline session management (view screen recording)
+- Two-factor authentication
+- Asset tags
+- Asset authorization
+- Multi-User & User Grouping
+- Scheduled Tasks
 - ssh server
 
-## 在线体验
+## online experience
 
 **web**
 
-https://next.typesafe.cn/ 账号：test  密码：test
+https://next.typesafe.cn/ Account: test Password: test
 
 **ssh server**
 
-主机：next.typesafe.cn
-端口：2022
-账号：test  密码：test
+Host: next.typesafe.cn
+Port: 2022
+Account: test Password: test
 
-## 协议与条款
+## Agreement and Terms
 
-如您需要在企业网络中使用 next-terminal，建议先征求 IT 管理员的同意。下载、使用或分发 next-terminal 前，您必须同意 [协议](./LICENSE) 条款与限制。本项目不提供任何担保，亦不承担任何责任。
+If you need to use next-terminal in the corporate network, it is recommended to ask the IT administrator's permission first. Before downloading, using or distributing next-terminal, you must agree to the terms and restrictions of the [AGREEMENT](./LICENSE). This project does not provide any guarantee and assumes no responsibility.
 
-## 快速安装
+## quick install
 
-- [安装文档](https://next-terminal.typesafe.cn)
+- [Installation Documentation](https://next-terminal.typesafe.cn)
 
-默认账号密码为 admin/admin 。
+The default account password is admin/admin.
 
-## 问题反馈
+## feedback
 
 - Issues
-- QQ群 938145268
+- QQ group 938145268
 - Telegram https://t.me/next_terminal
 
-## 安全问题
+## safe question
 
-如果您在使用过程中发现了安全问题，请发送邮件至 helloworld1024@foxmail.com 联系我，谢谢。
+If you find a security problem during use, please send an email to helloworld1024@foxmail.com to contact me, thank you.
 
-## License 
+## License
 
-Next Terminal 使用 [AGPL-3.0](./LICENSE) 开源协议，请自觉准守。
+Next Terminal uses the [AGPL-3.0](./LICENSE) open source protocol, please consciously abide by it.
 
-## 赞助支持
+## Sponsorship Support
 
-如果你觉得 `next-terminal` 这款程序还不错，并且想要购买服务器，可以从这里点击购买腾讯云服务器。
+If you think `next-terminal` is a good program and want to buy a server, you can click here to buy Tencent Cloud server.
 
-- 2022新春优惠抢先看 https://curl.qcloud.com/JN4kmKnL
-- 限时秒杀活动 https://curl.qcloud.com/ZioWA15a
-- 云服务器全球购 https://curl.qcloud.com/7QwcihVF
-- 星星海SA2云服务器 https://curl.qcloud.com/Iaih7ty0
-- 新客专属福利 https://curl.qcloud.com/MwPg07VQ
-- 企业上云特惠活动 https://curl.qcloud.com/skIyRHv6
-- 云开发CloudBase https://curl.qcloud.com/hpFpcHSB
+- First look at the 2022 Chinese New Year deals https://curl.qcloud.com/JN4kmKnL
+- Limited-time Lightning Deal https://curl.qcloud.com/ZioWA15a
+- Global purchase of cloud servers https://curl.qcloud.com/7QwcihVF
+- Xingxinghai SA2 cloud server https://curl.qcloud.com/Iaih7ty0
+- Exclusive benefits for new customers https://curl.qcloud.com/MwPg07VQ
+- Enterprise cloud special offer https://curl.qcloud.com/skIyRHv6
+- Cloud Development CloudBase https://curl.qcloud.com/hpFpcHSB
